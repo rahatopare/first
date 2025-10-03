@@ -1,0 +1,19 @@
+package com.ofss.digx.cz.bandhan.app.payout.maintenance.dto;
+
+import com.ofss.extsystem.dto.ResponseDTO;
+
+public class SearchPayoutMaintRequestDTO extends ResponseDTO{
+
+	private static final long serialVersionUID = 6736224796329537639L;
+	
+	public String customerType;
+
+    public String getCustomerType() {
+		return customerType;
+	}
+	public void setCustomerType(String customerType) {
+		this.customerType = customerType;
+	}
+
+    
+}
